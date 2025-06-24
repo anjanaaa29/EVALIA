@@ -8,11 +8,11 @@ from pathlib import Path
 import streamlit as st
 from streamlit_chat import message
 
-from src.domain import DomainIdentifier
-from src.mcq import MCQGenerator
-from src.technical import TechnicalAssessment
-from src.dashboard import show_dashboard
-from src.chatbot import chatbot_page
+from domain import DomainIdentifier
+from mcq import MCQGenerator
+from technical import TechnicalAssessment
+from dashboard import show_dashboard
+from chatbot import chatbot_page
 
 # Constants
 BOT_ICON = "🤖"
